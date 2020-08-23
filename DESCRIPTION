@@ -1,0 +1,9 @@
+Package: scDaPars
+Title: Dynamic Analysis of Alternative Polyadenylation from Single-Cell RNA-Seq
+Version: 0.0.1
+Authors: Yipeng Gao, Wei Li
+Maintainer: Yipeng Gao <yipeng.gao@bcm.edu>
+Description: scDaPars quantifies APA events at both single-cell and single-gene resolution using standard scRNA-seq data.
+Depends: stats, penalized, utils, foreach, RANN, igraph
+License: GPL
+RoxygenNote: 7.1.1
