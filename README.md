@@ -192,4 +192,4 @@ ggplot(scDaPars.res.umap.data, aes(x=Dim1, y=Dim2, color = cellType)) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
   theme(legend.position = "right", legend.title = element_blank())
 ```  
-![](https://github.com/YiPeng-Gao/scDaPars/blob/master/Example/hESC_scDaPars_clustering.pdf)
+![](https://github.com/YiPeng-Gao/scDaPars/blob/master/Example/hESC_scDaPars_results.png)
