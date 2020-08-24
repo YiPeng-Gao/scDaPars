@@ -125,9 +125,10 @@ head(scDaPars.res)[,1:6]
 ## ENST00000005259.8_2  0.071559391
 ```
 >4. Visualize scDaPars' results
-Load cell type information for the example data
+
 ```
-hESC_SRA = read.table("/Users/yipenggao/Documents/scDaPars/example/SraRunTable.txt", header = T, sep = ",", stringsAsFactors = F)
+#Load cell type information for the example data
+hESC_SRA = read.table("SraRunTable.txt", header = T, sep = ",", stringsAsFactors = F)
 cell_type = hESC_SRA[which(hESC_SRA$Run %in% colnames(scDaPars.res)),]
 cell_type = cell_type[match(colnames(scDaPars.res), cell_type$Run),]
 head(cell_type)
