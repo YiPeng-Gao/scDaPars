@@ -128,6 +128,7 @@ head(scDaPars.res)[,1:6]
 
 ```
 #Load cell type information for the example data
+
 hESC_SRA = read.table("SraRunTable.txt", header = T, sep = ",", stringsAsFactors = F)
 cell_type = hESC_SRA[which(hESC_SRA$Run %in% colnames(scDaPars.res)),]
 cell_type = cell_type[match(colnames(scDaPars.res), cell_type$Run),]
