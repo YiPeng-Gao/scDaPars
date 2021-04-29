@@ -16,6 +16,8 @@ Step.2 scDaPars constructs a nearest neighbor graph based on the sparse APA matr
 Step.3 scDaPars uses a non-negative least square (NNLS) regression model to refine neighboring cells and impute PDUIs of dropout genes in each cell.
 
 We welcome any suggestions on the package. For technical problems, please report to [Issues](https://github.com/YiPeng-Gao/scDaPars/issues). For suggestions and comments, please contact Yipeng (yipeng.gao@bcm.edu) or Dr. Wei Li (wei.li@uci.edu).
+## scDaPars Pipeline
+![](https://github.com/YiPeng-Gao/scDaPars/blob/master/Example/hESC_scDaPars_results.png)
 ## Installation
 
 The package is not on CRAN yet. For installation please use the following codes in ```R```
