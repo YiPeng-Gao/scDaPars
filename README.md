@@ -9,7 +9,7 @@ Yipeng Gao, Wei Li 2020-08-22
 
 scDaPars is a bioinformatics algorithm to accurately quantify Alternative Polyadenylation (APA) events at both single-cell and single-gene resolution using standard scRNA-seq data. 
 
-Step.1 scDaPars first takes scRNA-seq genome coverage data (bedgraph format) as input and forms a linear regression model to jointly infer the exact location of proximal poly(A) sites (Current Version of scDaPars do not support this function, raw PDUI values are calulated seperately using DaPars2. [DaPars2](https://github.com/3UTR/DaPars2/)). 
+Step.1 scDaPars first takes scRNA-seq genome coverage data (bedgraph format) as input and forms a linear regression model to jointly infer the exact location of proximal poly(A) sites (Current Version of scDaPars do not support this function, raw PDUI values are calulated seperately using DaPars2). [DaPars2](https://github.com/3UTR/DaPars2/) can be downloaded and the instructions to run DaPars2 can be found in [DaPars2_Instruction](https://leilisysbio.github.io/DaPars2_Documentation/DaPars2.html). 
 
 Step.2 scDaPars constructs a nearest neighbor graph based on the sparse APA matrix generated in step.1 to identify a pool of candidate neighboring cells that have similar APA profiles.
 
